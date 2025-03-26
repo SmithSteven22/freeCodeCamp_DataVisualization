@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+  margin-top: 20px;
+}
+
+#description {
+  margin-bottom: 20px;
+}
+
+#map {
+  position: relative;
+}
+
+.county {
+  stroke: #fff;
+  stroke-width: 0.5;
+}
+
+#legend {
+  margin: 20px auto;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 5px;
+  pointer-events: none;
+  opacity: 0;
+}
