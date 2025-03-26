@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  #container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  #description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  #treemap {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tile {
+    stroke: #fff;
+    stroke-width: 1px;
+  }
+  
+  text {
+    pointer-events: none; /* Ensure text does not interfere with hover */
+  }
+  
+  #legend {
+    margin-top: 20px;
+  }
+  
+  .legend-item {
+    stroke: #000;
+    stroke-width: 1px;
+  }
+  
+  #tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+  }
+  
