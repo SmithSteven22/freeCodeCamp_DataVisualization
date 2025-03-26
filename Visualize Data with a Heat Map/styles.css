@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #chart {
+    position: relative;
+  }
+  
+  .cell {
+    stroke: none;
+  }
+  
+  #tooltip {
+    position: absolute;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+    font-size: 12px;
+  }
+  
+  #legend {
+    margin-top: 20px;
+  }
+  
